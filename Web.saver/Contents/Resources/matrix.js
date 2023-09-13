@@ -283,7 +283,7 @@
                 ctx.fillStyle = "#000";
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
                 that.start.then();
-            }, 2000);
+            }, 100000);
             return that;
         };
 
